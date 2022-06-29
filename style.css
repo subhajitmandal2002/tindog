@@ -145,7 +145,10 @@ p{
     line-height: 1.5;
     font-size: 4rem;
   }
-  
+   .big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
 /* Footer */
 
 #footer {
