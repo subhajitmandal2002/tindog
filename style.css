@@ -56,12 +56,19 @@ p{
 .iphone{
     width:60%;
     transform:rotate(25deg);
+
+}
+.title-image{
+    position: absolute;
 }
 
 /* Features*/
 
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index:1;
 }
 .feature-box{
     text-align: center;
@@ -145,10 +152,11 @@ p{
     line-height: 1.5;
     font-size: 4rem;
   }
-   .big-heading{
+  .big-heading{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
   }
+  
 /* Footer */
 
 #footer {
@@ -166,7 +174,7 @@ p{
 
 /* Media Query */
 
-@media (max-width:1028px) {
+@media (max-width: 1028px) {
 
     #title {
       text-align: center;
@@ -176,6 +184,6 @@ p{
       width:40%;
       position: static;
       transform: rotate(0);
-      padding-top: 5%;
+      padding-top:5%;
     }
   }  
