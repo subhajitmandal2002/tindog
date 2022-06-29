@@ -172,9 +172,10 @@ p{
       text-align: center;
     }
   
-    .title-image {
-      width: 36%;
+    .iphone{
+      width:40%;
       position: static;
       transform: rotate(0);
+      padding-top: 5%;
     }
   }  
